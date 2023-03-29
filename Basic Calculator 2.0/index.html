@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaSctipt Calculator | Simple Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+ <Body>
+	<script >
+		
+
+		// Retrieve data   
+
+	function calcNumbers(result){
+		var storage=form.displayResult.value=form.displayResult.value+result;
+        var res=console.log(` ${storage} = ${eval(storage)}`)
+	}
+
+	function reset(){
+		var value=displayResult.value=eval(displayResult.value)
+		var reset=value='0'
+	}	
+	function getSquareRoot() {
+		var displayValue = document.form.displayResult.value;
+		if (isNaN(displayValue) || displayValue < 0) {
+		  document.form.displayResult.value = "Error: Invalid Input";
+		} else {
+		  var result = Math.sqrt(displayValue);
+		  document.form.displayResult.value = result;
+		}
+	  }
+	  
+	function percent(){
+		var displayValue = form.displayResult.value;
+		if(!isNaN(displayValue)){
+			var result= eval(displayValue)/100;
+			form.displayResult.value = result;
+	}else{
+		form.displayResult.value = "Error";
+	}
+	}
+	function backspace(){
+		var displayValue = form.displayResult.value;
+		form.displayResult.value = displayValue.substring(0, displayValue.length - 1);
+	}
+	</script>
+	<div class="container">
+		<form name="form">
+		<div class="display">
+			<input value=""  readonly type="text" placeholder="0" name="displayResult" />
+		</div>
+			<div class="buttons">
+				<div class="row">
+					<input type="button" class="red" value="%" onClick="percent()">
+					<input type="button" class="red" name="sqrtb" value="√" onclick="getSquareRoot()">
+					<input  type="button" class="black" value="CE" onClick="reset()">
+					<input type="button" class="black" class="backspace" value="←" onclick="backspace()">
+
+
+				</div>
+			  <div class="row">
+				<input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
+				  <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
+				  <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
+				  <input type="button" class="red" name="divb" value="/" onClick="calcNumbers(divb.value)">
+
+
+				</div>
+				
+				<div class="row">
+					<input type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
+				  <input type="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
+				  <input type="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
+				  <input type="button" class="red" name="mulb" value="*" onClick="calcNumbers(mulb.value)">
+
+					
+				</div>
+				
+				<div class="row">
+				<input type="button" name="b1" value="1" onClick="calcNumbers(b1.value)">
+				  <input type="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
+				  <input type="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
+				  <input type="button" class="red" name="addb" value="+" onClick="calcNumbers(addb.value)">
+
+
+				</div>
+				
+				<div class="row">
+				  <input type="button" class="red" name="potb" value="." onClick="calcNumbers(potb.value)">
+				<input type="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
+				<input type="button" class="red" name="subb" value="-" onClick="calcNumbers(subb.value)">
+
+				  <input type="button" class="black res" value="=" 
+				  onClick="displayResult.value=eval(displayResult.value)">
+
+				</div>
+			</div>
+		
+		</form>
+	</div>
+</body>
+	
+</html>

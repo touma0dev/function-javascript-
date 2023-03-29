@@ -1,0 +1,410 @@
+@import "https://fonts.googleapis.com/css?family=Questrial:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700";
+html, body, a, li {
+  font-family: "Questrial", "Rubik", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.navbar-section {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  max-width: 1350px;
+  justify-content: space-around;
+  height: 45px;
+  position: relative;
+  top: 15px;
+  background: rgba(255, 255, 255, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar-list li {
+  padding: 0px 15px;
+}
+.navbar-list li a {
+  color: #333;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.typing {
+  position: relative;
+  top: 40px;
+}
+
+.type-tittle {
+  text-align: center;
+}
+.type-input-text {
+  width: 1500px;
+  max-width: 750px;
+  padding: 9px 5px;
+  border-radius: 5px;
+  font-size: 30px;
+  border: 0.5px solid #333;
+  font-family: "Questrial", "Rubik", sans-serif;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  outline: none;
+}
+
+.theme {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.keyboard {
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  background-color: pink;
+  padding: 5px 5px;
+}
+
+.board-brand {
+  padding: 0 1px;
+}
+
+.pack {
+  padding: 2px;
+}
+
+.key {
+  text-align: center;
+  font-size: 16px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 37px;
+  width: 25px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  transition: all 2 ease;
+  scale: 1;
+}
+.key:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-top {
+  text-align: center;
+  font-size: 16px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 6px 6px;
+  width: 39px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.key-top:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-top:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-backspace {
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 6px 7px;
+  width: 80px;
+  height: 33px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.key-backspace:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-backspace:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-line-3 {
+  text-align: center;
+  font-size: 20px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 5px 10px;
+  height: 31px;
+  width: 25px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+.key-line-3:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-line-3:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-win-left {
+  text-align: center;
+  font-size: 20px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 10px 4px;
+  width: 89px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+.key-win-left:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-win-left:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-shift {
+  text-align: center;
+  font-size: 25px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 8px 8px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+.key-shift:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-shift:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-tab {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 5px 8px;
+  width: 74px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+.key-tab:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-tab:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-enter {
+  text-align: center;
+  font-size: 16px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 13px 5px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 42px;
+}
+.key-enter:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-enter:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-lock {
+  text-align: center;
+  font-size: 20px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 9px 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 85px;
+}
+.key-lock:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-lock:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-space {
+  text-align: center;
+  font-size: 25px;
+  height: 42px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 360px;
+}
+.key-space:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-space:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-alt {
+  text-align: center;
+  font-size: 20px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 10px 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 55px;
+}
+.key-alt:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-alt:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-control {
+  text-align: center;
+  font-size: 22px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 10px 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 50px;
+}
+.key-control:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-control:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-alt-right {
+  text-align: center;
+  font-size: 22px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 9px 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 35px;
+}
+.key-alt-right:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-alt-right:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-control-right {
+  text-align: center;
+  font-size: 22px;
+  color: #f5f5f5;
+  border: 0.5px solid #f5f5f5;
+  padding: 9px 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  width: 49px;
+}
+.key-control-right:hover {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 1s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.key-control-right:hover svg {
+  fill: rgb(2, 2, 2);
+}
+.key-none {
+  padding: 0 5px;
+}
+
+.pressed {
+  color: rgb(2, 2, 2);
+  border: 0.5px solid rgb(0, 0, 0);
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.432);
+  scale: 0.98;
+}
+.pressed svg {
+  fill: #000000 !important;
+}
+
+#Backspace {
+  fill: white;
+}/*# sourceMappingURL=style.css.map */
