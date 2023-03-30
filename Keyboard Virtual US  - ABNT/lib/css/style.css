@@ -79,6 +79,8 @@ html, body, a, li {
   border: 1px solid #f5f5f5;
   background-color: pink;
   padding: 5px 5px;
+  animation: rainbow 10s infinite linear;
+  animation: rainbow 10s infinite linear;
 }
 
 .board-brand {
@@ -407,4 +409,121 @@ html, body, a, li {
 
 #Backspace {
   fill: white;
+}
+
+.btn-theme-btn {
+  padding: 5px 6px;
+}
+.btn-theme-btn-Rgb {
+  box-shadow: 0px 0px 148px 17px rgba(255, 46, 147, 0.58);
+  font-size: 3em;
+  font-weight: bold;
+  color: #fafafa;
+  text-stroke: 1px #fff;
+  background-color: transparent;
+  border: 2px solid #f5f5f5;
+  transition: all 2s;
+}
+.btn-theme-btn-Rgb:hover {
+  transition: all 1s ease;
+  background: linear-gradient(45deg, #fb0094, #00f, #0f0, #ff0, #f00, #fb0094, #00f, #0f0, #ff0, #f00);
+}
+.btn-theme-btn-Lemon {
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: block;
+  font-size: 1.4em;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+}
+.btn-theme-btn-Lemon:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00a950, 0 0 30px #00a950, 0 0 40px #00a950, 0 0 50px #00a950;
+  transition: all 1s ease;
+}
+.btn-theme-btn-Pink {
+  border: 3px solid rgb(247, 74, 247);
+  background-color: transparent;
+  color: rgb(247, 74, 247);
+}
+.btn-theme-btn-Pink:hover {
+  transition: all 1s ease;
+  border: 3px solid rgb(247, 74, 247);
+  background-color: rgb(247, 74, 247);
+  color: rgb(255, 222, 173);
+}
+.btn-theme-btn-Dark {
+  border: 3px solid #f5f5f5;
+  background-color: #0c0c0c;
+  color: #f5f5f5;
+}
+.btn-theme-btn-Dark:hover {
+  transition: all 1s ease;
+  border: 3px solid #0c0c0c;
+  color: #0c0c0c;
+  background: transparent;
+}
+.btn-theme-btn-Blue {
+  color: #f5f5f5;
+  font-size: 1.5em;
+  background-color: rgb(55, 0, 255);
+  border: 2px solid rgb(151, 151, 151);
+}
+.btn-theme-btn-Blue:hover {
+  transition: all 1s ease;
+  border: 2px solid rgb(55, 0, 255);
+  background: transparent;
+  color: rgb(55, 0, 255);
+}
+.btn-theme-btn button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.keyboard.Blue {
+  /* gradiente de azul claro para escuro */
+  background-image: linear-gradient(to bottom, #64b5f6, #0d47a1);
+}
+
+.keyboard.Dark {
+  /* gradiente escuro */
+  background-image: linear-gradient(to bottom, #333333, #000000);
+  color: #f2f2f2;
+}
+
+.keyboard.Pink {
+  /* gradiente de rosa claro para escuro */
+  background-image: linear-gradient(to bottom, #f48fb1, #880e4f);
+}
+
+.keyboard.Lemon {
+  /* gradiente de amarelo claro para escuro */
+  background-image: linear-gradient(to bottom, #ffecb3, #f57f17);
+}
+
+.keyboard.Rgb {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -z-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }/*# sourceMappingURL=style.css.map */
