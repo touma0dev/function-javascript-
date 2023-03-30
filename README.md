@@ -9,8 +9,8 @@
         mostra os números inseridos e o resultado da operação. A calculadora tem duas versões, a 1.0 e a 2.0, cada uma
         com diferentes funcionalidades e melhorias. Confira os links abaixo para acessar os códigos-fonte:</p>
     <ul>
-        <li><a href="https://playful-unicorn-3b186f.netlify.app/" target="_new">Calculadora JavaScript 1.0</a></li>
-        <li><a href="https://dreamy-granita-686602.netlify.app/" target="_new">Calculadora JavaScript 2.0</a></li>
+        <li><a href="https://playful-unicorn-3b186f.netlify.app/"  target="_blank">Calculadora JavaScript 1.0</a></li>
+        <li><a href="https://dreamy-granita-686602.netlify.app/"  target="_blank">Calculadora JavaScript 2.0</a></li>
     </ul>
     <h1 style="margin-bottom: 1rem; margin-top: 2rem ;font-weight: 600;">Projeto 2: Keyboard ABNT</h1>
     <p>O Keyboard ABNT é um projeto que implementa um teclado virtual em HTML, CSS e JavaScript, com suporte para
@@ -19,7 +19,7 @@
     <p>Além disso, o Keyboard ABNT também tem suporte para efeitos de eventos que alteram o tema da tecla usando hover e
         simula um key press quando o dedo é retirado da tecla, para melhorar a experiência do usuário.</p>
     <p>Você pode acessar o projeto clicando neste <a href="https://capable-manatee-397450.netlify.app/"
-            target="_new">link</a>.</p>
+            target="_blank">link</a>.</p>
     <h2>Como usar os projetos</h2>
     <p>Para usar os projetos, basta acessar os links correspondentes de cada um deles e interagir com as interfaces.
         Eles são projetos de código aberto, portanto, você pode baixar o código fonte e modificá-lo de acordo com suas
