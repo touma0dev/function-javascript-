@@ -12,8 +12,6 @@
         <li><a href="https://playful-unicorn-3b186f.netlify.app/" target="_new">Calculadora JavaScript 1.0</a></li>
         <li><a href="https://dreamy-granita-686602.netlify.app/" target="_new">Calculadora JavaScript 2.0</a></li>
     </ul>
-    <p>Fique à vontade para explorar os projetos e contribuir com sugestões e melhorias. Obrigado por visitar minha
-        página de projetos no Git!</p>
     <h1 style="margin-bottom: 1rem; margin-top: 2rem ;font-weight: 600;">Projeto 2: Keyboard ABNT</h1>
     <p>O Keyboard ABNT é um projeto que implementa um teclado virtual em HTML, CSS e JavaScript, com suporte para
         caracteres específicos do idioma português e o padrão ABNT2. Ele permite que o usuário digite textos em campos
