@@ -312,28 +312,20 @@ $btn-border:rgb(151, 151, 151);
 &-btn{
     padding: 5px 6px;
     &-Rgb{
-        -webkit-box-shadow:0px 0px 148px 17px rgba(255,46,147,0.58);
-        -moz-box-shadow: 0px 0px 148px 17px rgba(255,46,147,0.58);
-        box-shadow: 0px 0px 148px 17px rgba(255,46,147,0.58);
         font-size: 3em;
         font-weight: bold;
         color: #fafafa;
-        text-stroke: 1px #fff;   
         background-color: transparent;
         border: 2px solid $secondary;
-        transition: all  2s  ;
         &:hover{
-            transition:all 1s ease ;
-            background: linear-gradient(45deg, #fb0094, #00f, #0f0, 
-            #ff0, #f00, #fb0094, #00f, #0f0, #ff0, #f00);
-        }
-        
-        
-    }
-    &-Lemon{
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00a950, 0 0 30px #00a950, 0 0 40px #00a950, 0 0 50px #00a950;
+            transition:all 1s ease-in-out ;
+        }       
+    }        
+
+    .btn-theme-btn-Lemon{
         background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
         border-radius: 40px;
-        box-sizing: border-box;
         color: #00a84f;
         display: block;
         font-size: 1.4em;
@@ -341,11 +333,9 @@ $btn-border:rgb(151, 151, 151);
         text-decoration: none;
         color: #fff;
         z-index: 2;
-
         &:hover{
             text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00a950, 0 0 30px #00a950, 0 0 40px #00a950, 0 0 50px #00a950;
             transition:all 1s ease ;
-
         }
     }
     &-Pink{
@@ -389,8 +379,11 @@ $btn-border:rgb(151, 151, 151);
         cursor: pointer;
         font-size: 1.5em;
     }
-}} 
- 
+   
+        }
+        }
+           
+    
   
   .keyboard.Blue {
     /* gradiente de azul claro para escuro */
