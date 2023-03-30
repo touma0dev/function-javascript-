@@ -14,7 +14,7 @@
     </ul>
     <p>Fique à vontade para explorar os projetos e contribuir com sugestões e melhorias. Obrigado por visitar minha
         página de projetos no Git!</p>
-    <h3 style="margin-bottom: 1rem; margin-top: 2rem ;font-weight: 600;">3. Keyboard ABNT</h3>
+    <h1 style="margin-bottom: 1rem; margin-top: 2rem ;font-weight: 600;">Projeto 2: Keyboard ABNT</h1>
     <p>O Keyboard ABNT é um projeto que implementa um teclado virtual em HTML, CSS e JavaScript, com suporte para
         caracteres específicos do idioma português e o padrão ABNT2. Ele permite que o usuário digite textos em campos
         de formulário utilizando um teclado virtual no navegador, sem a necessidade de um teclado físico.</p>
